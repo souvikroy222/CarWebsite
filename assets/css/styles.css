@@ -382,6 +382,12 @@ img {
   border-radius: 1.25rem;
   text-align: center;
 }
+.about__data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .about__card-title {
   font-size: var(--h3-font-size);
@@ -926,6 +932,12 @@ img {
   }
   .offer__data {
     margin-bottom: 3.5rem;
+  }
+  .about__data{
+    display: flex;
+    text-align: left;
+    align-items: baseline;
+    
   }
 }
 
