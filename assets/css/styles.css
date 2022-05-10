@@ -123,11 +123,13 @@ img {
 .shape__small {
   height: 300px;
   width: 300px;
+  z-index: 1;
 }
 .shape__smaller {
   width: 180px;
   height: 180px;
   filter: blur(64px);
+  z-index: 1;
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -366,6 +368,7 @@ img {
 
 .about__container {
   row-gap: 6rem;
+  z-index: 0;
 }
 .about__group {
   position: relative;
