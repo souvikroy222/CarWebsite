@@ -260,15 +260,9 @@ img {
 }
 .home__img {
   width: 280px;
-  justify-self: center;  
-  position: relative;  
+  justify-self: center;
+  position: relative;
 }
-
-
-
-
-
-
 
 .home__car {
   display: flex;
@@ -278,11 +272,11 @@ img {
   margin-bottom: 2rem;
 }
 .home__car-name {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: var(--text-color-light);
 }
-.home__car-icon i{
+.home__car-icon i {
   font-size: 1.5rem;
 }
 .home__car-data {
@@ -336,7 +330,7 @@ img {
 }
 .shape__small {
   right: -10rem;
-  bottom: 21rem;
+  bottom: 28rem;
 }
 .scroll-header {
   border-radius: 0 0 1rem 1rem;
@@ -871,9 +865,9 @@ img {
     color: var(--first-color);
   }
 
-  .about__container{
+  .about__container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: center;
   }
@@ -881,18 +875,12 @@ img {
     text-align: left;
   }
 
-  .logos__container{
-    column-gap: 7rem
+  .logos__container {
+    column-gap: 7rem;
   }
   .footer__container {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
-
-
-
-
-
-
 }
 
 /* For Galaxy Fold */
@@ -935,7 +923,6 @@ img {
   .offer__img {
     position: relative;
     bottom: initial;
-    
   }
   .offer__data {
     margin-bottom: 3.5rem;
@@ -943,26 +930,24 @@ img {
 }
 
 /* For large devices */
-@media screen and (min-width:1040px) {
-  .container{
+@media screen and (min-width: 1040px) {
+  .container {
     margin: auto;
     max-width: 85%;
   }
-  .logos__container{
-    grid-template-columns: repeat(6,1fr);
+  .logos__container {
+    grid-template-columns: repeat(6, 1fr);
   }
-  .feauted__conent{
-    grid-template-columns: repeat(4,1fr);
+  .feauted__conent {
+    grid-template-columns: repeat(4, 1fr);
   }
-  
-  .about__container{
+
+  .about__container {
     column-gap: 8rem;
   }
-  .home__img {    
+  .home__img {
     width: 380px;
-    justify-self: center;  
-    position: relative;  
+    justify-self: center;
+    position: relative;
   }
-  
- 
 }
