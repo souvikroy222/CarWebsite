@@ -404,7 +404,9 @@ img {
 
 .about__description {
   margin-bottom: 2rem;
+  text-align: center;
 }
+
 
 /*=============== POPULAR ===============*/
 
@@ -936,8 +938,10 @@ img {
   .about__data{
     display: flex;
     text-align: left;
-    align-items: baseline;
-    
+    align-items: baseline;    
+  }
+  .about__description {    
+    text-align: left;
   }
 }
 
